@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0; 
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: white; 
+}
+
+article {
+    flex: 2; 
+    background-color: white; 
+    padding: 20px;
+    border-right: 1px solid lightgrey; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+aside {
+    flex: 1;
+    background-color: lightgrey; 
+    padding: 20px;
+    border-left: 1px solid lightgrey; 
+}
+
+article, aside {
+    overflow-y: auto;
+}
+
+header {
+    background-color: darkgray; 
+    color: white; 
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto; 
+}
+
+footer {
+    background-color: darkgray; /* Dark background for footer */
+    color: white; 
+    padding: 10px;
+    text-align: center;
+}
