@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+h1 {
+    position: relative;
+    top: -18px;
+}
+p {
+    position: relative;
+    top: -5px;
+}
+.block {
+    width: 500;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid lightgray;
+    margin: 20px auto;
+}
+
+.inner-block {
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid blue;
+    width: 350px;
+    height: 20px;
+
+}
+
+header div {
+    margin-bottom: 10px;
+}
+nav div ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav div ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.nested-block {
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.nested-blocks {
+    display: flex;
+    gap: 30px;
+    border: 1px solid lightgray;
+}
+
+.video-titles-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .video-title-block,
+  .video-info-block {
+    width: 25%; 
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+  }
+  
+  .video-info-block img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .author-block img {
+    max-width: 50px; 
+    height: auto;
+  }
+  
+  .rating-block .stars img {
+    width: 20px; 
+    height: auto;
+  }
+  
+ 
+  .video-titles-container {
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  
+  .video-titles-container .video-title-block,
+  .video-titles-container .video-info-block {
+    margin-bottom: 0;
+  }
+
+  .new-section {
+    margin-top: 50px;
+}
+
+.block-items-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-item {
+    width: calc(25% - 10px);
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+.block-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.block-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.block-item p {
+    margin-bottom: 10px;
+}
+
+.block-item button {
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.block-item button:hover {
+    background-color: blue;
+}
+
+button{
+    width: 100px;
+    margin-top: 5px;
+
+}
+
+.faq-section {
+    margin-top: 50px;
+}
+
+.row-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.item-block {
+    width: calc(50% - 10px);
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+}
+
+.item-block h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.item-block p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: white;
+    padding: 20px 0;
+    position: relative;
+}
+.global-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+.footer-left img {
+    max-width: 100px;
+    height: auto;
+}
+.links {
+    display: flex;
+    gap: 10px;
+}
+.links img {
+    max-width: 30px;
+    height: auto;
+}
+.footer-text {
+    position: relative;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+}
+   </style>
+
+</head>
+<body>
+    <header>
+        <div>
+            <a href="https://www.holbertonschool.com/">
+                <img src="logo.png" alt="Logo">
+              </a>
+        </div>
+        <nav>
+            <div >
+            <ul>
+                <a href="https://hyperskill.org/study-plan">
+                    <li>Hyperskill</li>
+                </a>
+                <a href="https://www.google.com">
+                    <li>google</li>
+                </a>
+            <a href="https://hyperskill.org/study-plan">
+                <a href="https://www.youtube.com">
+                    <li>youtube</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <main>
+    <section> 
+        <div class="block">
+            <div class="inner-block">
+        <h1>Learning</h1>
+    </div>
+    <div class="inner-block">
+        <p>Help in programming</p>
+        </div>
+        <div class="inner-block">
+        <button>Start learning</button>
+        </div>
+        </div>
+        <div class="block">
+            <h2>Courses</h2>
+            <div class="nested-blocks">
+                <div class="nested-block">
+                    <a href="https://www.holbertonschool.com/">
+                        <img src="logo.png" alt="Intro">
+                      </a>
+                      <h3>Course 1</h3>
+                      <p>Intro to programming</p>
+                </div>
+                <div class="nested-block">
+                    <a href="https://www.holbertonschool.com/">
+                        <img src="logo.png" alt="Python">
+                        <h3>Course 2</h3> 
+                        <p>Python</p> 
+                </div>
+                <div class="nested-block">
+                    <a href="https://www.holbertonschool.com/">
+                        <img src="logo.png" alt="Web">
+                        <h3>Course 3</h3>
+                        <p>Web development</p>
+                </div>
+                <div class="nested-block">
+                    <a href="https://www.holbertonschool.com/">
+                        <img src="logo.png" alt="Java">
+                        <h3>Course 4</h3>
+                        <p>Java script</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="block">
+    <section class="quote-section">
+        <div class="nested-block">
+        <a href="https://www.holbertonschool.com/">
+            <img src="logo.png" alt="Quote">
+        </div>
+            <div class="quote-block">
+            <blockquote class="quote">"The only way to do great work is to love what you do."</blockquote>
+            <p class="author">- Steve Jobs</p>
+            <p>Inspirational quote to motivate you on your learning journey.</p>
+        </div>
+    </div>
+        </section>
+
+    <section>
+        <div class="block">
+        <h1>Videos</h1>
+        <div class="video-titles-container">
+          <div class="video-title-block">
+            <img src="video1-thumbnail.jpg" alt="Video 1 Thumbnail">
+            <h2>How to use a computer</h2>
+            <p>Learn to use a computer</p>
+            <div class="author-block">
+              <img src="author-image.jpg" alt="Author Image">
+              <h3>Stephen King</h3>
+            </div>
+            <div class="rating-block">
+              <div class="stars">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+              </div>
+              <p>3/5 Rating</p>
+            </div>
+          </div>
+      
+          <div class="video-title-block">
+            <img src="video2-thumbnail.jpg" alt="Video 2 Thumbnail">
+            <h2>Basics</h2>
+            <p>Learn basic computer programming</p>
+            <div class="author-block">
+              <img src="author-image.jpg" alt="Author Image">
+              <h3>James S. Coan</h3>
+            </div>
+            <div class="rating-block">
+              <div class="stars">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+              </div>
+              <p>4/5 Rating</p>
+            </div>
+          </div>
+      
+          <div class="video-title-block">
+            <img src="video3-thumbnail.jpg" alt="Video 3 Thumbnail">
+            <h2>Programming</h2>
+            <p>Learn programming languages</p>
+            <div class="author-block">
+              <img src="author-image.jpg" alt="Author Image">
+              <h3> Corrado Böhm</h3>
+            </div>
+            <div class="rating-block">
+              <div class="stars">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+              </div>
+              <p>2/5 Rating</p>
+            </div>
+          </div>
+      
+          <div class="video-title-block">
+            <img src="video4-thumbnail.jpg" alt="Video 4 Thumbnail">
+            <h2>Framework</h2>
+            <p>Learn to do framework</p>
+            <div class="author-block">
+              <img src="author-image.jpg" alt="Author Image">
+              <h3>Julia Lerman</h3>
+            </div>
+            <div class="rating-block">
+              <div class="stars">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+              </div>
+              <p>5/5 Rating</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="new-section">
+        <div class="block">
+        <h1>Membership Section</h1>
+        <div class="block-items-container">
+
+            <div class="block-item">
+                <img src="image1.jpg" alt="Image">
+                <h2>My account</h2>
+                <p>email account</p>
+            </div>
+    
+            <div class="block-item">
+                <img src="image2.jpg" alt="Image">
+                <h2>My names</h2>
+                <p>Full names</p>
+            </div>
+    
+            <div class="block-item">
+                <img src="image3.jpg" alt="Image">
+                <h2>My course</h2>
+                <p>Course enrolled in</p>
+            </div>
+    
+            <div class="block-item">
+                <img src="image4.jpg" alt="Image">
+                <h2>My contact</h2>
+                <p>Phone number</p>
+            </div>
+        </div>
+        <button>Save</button>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="block">
+        <h1>Frequently Asked Questions</h1>
+        <div class="row-block">
+          
+            <div class="item-block">
+                <h2>Question 1</h2>
+                <p>Answer to question 1.</p>
+            </div>
+            <div class="item-block">
+                <h2>Question 2</h2>
+                <p>Answer to question 2.</p>
+            </div>
+        </div>
+        <div class="row-block">
+           
+            <div class="item-block">
+                <h2>Question 3</h2>
+                <p>Answer to question 3.</p>
+            </div>
+            <div class="item-block">
+                <h2>Question 4</h2>
+                <p>Answer to question 4.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+</div>
+</main>
+
+<footer class="footer">
+  <div class="global-block">
+      <div class="footer-left">
+          <img src="path/to/footer-image.png" alt="Logo">
+      </div>
+      
+      <div class="links">
+          <a href="https://www.holbertonschool.com/">
+              <img src="path/to/link-image1.png" alt="Image">
+          </a>
+          <a href="https://www.holbertonschool.com/">
+              <img src="path/to/link-image2.png" alt="Image">
+          </a>
+          <a href="https://www.holbertonschool.com/">
+              <img src="path/to/link-image3.png" alt="Image">
+          </a>
+      </div>
+  </div>
+  <div class="footer-text">
+      <p>Always learn coding with us.</p>
+  </div>
+</footer>
+
+</body>
+</html>
