@@ -13,58 +13,63 @@ What the purpose of each HTML tag
 **THESE ARE DIFFERENT IMAGES THAT AM GOING TO USE FOR THIS EXERCISE**
 
 LOGO-BUTTON:
-![img.png](img.png)
+ ![alt text](image.png)
 
 BACKGROUND ICON:
-![img_19.png](img_19.png)
+![alt text](image-2.png)
 
 PRO-1:
-![img_1.png](img_1.png)
+![alt text](image-1.png)
 
 PRO-2:
-![img_2.png](img_2.png)
+![alt text](image-3.png)
 
 PRO-3:
-![img_5.png](img_5.png)
+![alt text](image-4.png)
 
 PRO-4:
-![img_4.png](img_4.png)
+![alt text](image-5.png)
 
 TUTORIALS:
-![img_6.png](img_6.png)
+![alt text](image-6.png)
 
 TUTO-1:
- ![img_7.png](img_7.png)
+ ![alt text](image-7.png)
 
 PLAY-ICON:
-![img_8.png](img_8.png)
+![alt text](image-8.png)
 
 AVATOR-ICON:
-![img_9.png](img_9.png)
+![alt text](image-9.png)
 
 RATING-ICON:
-![img_10.png](img_10.png)
+![alt text](image-10.png)
 
 TUTO-2:
-![img_11.png](img_11.png)
+![alt text](image-11.png)
 
 TUTO-3:
-![img_12.png](img_12.png)
+![alt text](image-15.png)
 
 TUTO-4:
-![img_13.png](img_13.png)
+![alt text](image-19.png)
 
 MEMBERSHIP-ICON:
-![img_14.png](img_14.png)
+![alt text](image-20.png)
 
 FACEBOOK-ICON:
-![img_15.png](img_15.png)
+![alt text](image-22.png)
 
 TWITTER-ICON:
-![img_16.png](img_16.png)
+![alt text](image-23.png)
 
 INSTAGRAM-ICON:
-![img_17.png](img_17.png)
+![alt text](image-24.png)
+
 
 SMILE-ICON:
-![img_18.png](img_18.png)
+![alt text](image-21.png)
+
+
+
+
