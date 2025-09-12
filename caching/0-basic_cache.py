@@ -28,3 +28,4 @@ class BasicCache(BaseCaching):
         the key doesn't exist in cache_data.
         """
         return self.cache_data.get(key, None)
+    
